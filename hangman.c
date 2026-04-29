@@ -42,6 +42,6 @@ int main (){
          printf ("attempts left: %d\n", attempts);  
     }
 
- printf ("GAME OVER LOSER! the word is: %s\n", word);
+ printf ("GAME OVER LOSER BOO! the word is: %s\n", word);
  return 0;
 } 
