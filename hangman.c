@@ -35,13 +35,13 @@ int main (){
         }
 
         if (strcmp (word,display)==0){
-        printf ("YOU WON WOOHOO!! the word is: %s\n", word);
+        printf ("YOU WON WOOHOO!!\nthe word is: %s\n", word);
         return 0;
         }
 
          printf ("attempts left: %d\n", attempts);  
     }
 
- printf ("GAME OVER LOSER BOO! the word is: %s\n", word);
+ printf ("GAME OVER LOSER BOO!\nthe word is: %s\n", word);
  return 0;
 } 
