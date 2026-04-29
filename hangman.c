@@ -4,7 +4,7 @@
 int main (){
 
     int i;
-    int attempts=5;
+    int attempts=6;
     int correct;
     char word[]="pink";
     char display[]="____";
@@ -44,18 +44,4 @@ int main (){
 
  printf ("GAME OVER LOSER! the word is: %s\n", word);
  return 0;
-}
-
-    
-    
-
-    
-    
-
-   
-
-    
-    
-
-   
-   
+} 
