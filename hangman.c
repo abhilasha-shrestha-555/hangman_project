@@ -4,7 +4,7 @@
 int main (){
 
     int i;
-    int attempts=6;
+    int attempts=5;
     int correct;
     char word[]="pink";
     char display[]="____";
