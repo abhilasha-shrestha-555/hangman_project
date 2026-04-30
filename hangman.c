@@ -15,14 +15,14 @@ int main (){
     for (attempts=5; attempts>0; attempts--){
     correct=0;
 
-        printf ("\nword: %s\n", display);
+        printf ("\nword: %s\n", display); //displays progress
 
         printf ("enter a letter: ");
         scanf (" %c", &guess);
 
         for (i=0; i<strlen (word); i++){
             if (word [i]==guess){
-            display [i]=guess;
+            display [i]=guess; //shows right letters in ----
             correct=1;
             }
         }
@@ -34,7 +34,7 @@ int main (){
          printf ("wrong haha! \n");
         }
 
-        if (strcmp (word,display)==0){
+        if (strcmp (word,display)==0){ //comparing string with the guessed letters
         printf ("YOU WON WOOHOO!!\nthe word is: %s\n", word);
         return 0;
         }
